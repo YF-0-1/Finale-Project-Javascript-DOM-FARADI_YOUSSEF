@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+$blood: #1a76d1;
+
+$custom-colors: (
+"blood": $blood,
+);
+
+$theme-colors: map-merge($custom-colors , $theme-colors);
