@@ -12174,6 +12174,7 @@ textarea.form-control-lg {
   background-color: white !important;
   color: #EC2727 !important;
   border: solid #EC2727 3px !important;
+  padding-block: 5px !important;
 }
 .navbar .container-fluid .connexion .modale, .navbar .container-sm .connexion .modale, .navbar .container-md .connexion .modale, .navbar .container-lg .connexion .modale, .navbar .container-xl .connexion .modale, .navbar .container-xxl .connexion .modale {
   height: 100vh;
@@ -12198,11 +12199,19 @@ textarea.form-control-lg {
   background-color: white !important;
   color: #EC2727 !important;
   border: solid #EC2727 1px !important;
+  padding: 5px 0 !important;
 }
 .navbar .container-fluid .connexion .modale .log .signin button:hover, .navbar .container-sm .connexion .modale .log .signin button:hover, .navbar .container-md .connexion .modale .log .signin button:hover, .navbar .container-lg .connexion .modale .log .signin button:hover, .navbar .container-xl .connexion .modale .log .signin button:hover, .navbar .container-xxl .connexion .modale .log .signin button:hover {
   background-color: white !important;
   color: #EC2727 !important;
   border: solid #EC2727 3px !important;
+  padding-block: 5px !important;
+}
+.navbar .container-fluid .connexion .modale .log .signup button:hover, .navbar .container-sm .connexion .modale .log .signup button:hover, .navbar .container-md .connexion .modale .log .signup button:hover, .navbar .container-lg .connexion .modale .log .signup button:hover, .navbar .container-xl .connexion .modale .log .signup button:hover, .navbar .container-xxl .connexion .modale .log .signup button:hover {
+  background-color: white !important;
+  color: #EC2727 !important;
+  border: solid #EC2727 3px !important;
+  padding-block: 5px !important;
 }
 
 @media (max-width: 430px) {
@@ -12288,10 +12297,19 @@ textarea.form-control-lg {
 
 .section1 {
   height: 70vh;
-  background: #d0d0d0;
+  background: #e3e3e3;
 }
 .section1 .hero .section1_rightside h1, .section1 .hero .section1_rightside .h1 {
   font-family: "simo";
+}
+.section1 .hero .section1_rightside .book-table .book-btn {
+  width: 30% !important;
+}
+.section1 .hero .section1_rightside .book-table .book-btn:hover {
+  background-color: white !important;
+  color: #EC2727 !important;
+  border: solid #EC2727 3px !important;
+  padding: 5px 0 !important;
 }
 
 /*# sourceMappingURL=app.css.map */

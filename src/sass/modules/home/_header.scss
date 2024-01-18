@@ -37,6 +37,7 @@
                 background-color: white !important;
                 color: $blood !important;
                 border: solid $blood 3px !important;
+                padding-block: 5px !important ;
             }
             .modale{
                 height: 100vh;
@@ -59,6 +60,7 @@
                                 background-color: white !important;
                                 color: $blood !important;
                                 border: solid $blood 1px !important;
+                                padding: 5px 0 !important ;
                             }
                         }
                     }
@@ -68,6 +70,17 @@
                                 background-color: white !important;
                                 color: $blood !important;
                                 border: solid $blood 3px !important;
+                                padding-block: 5px !important ;
+                            }
+                        }
+                    }
+                    .signup{
+                        button{
+                            &:hover{
+                                background-color: white !important;
+                                color: $blood !important;
+                                border: solid $blood 3px !important;
+                                padding-block: 5px !important ;
                             }
                         }
                     }
