@@ -12312,4 +12312,155 @@ textarea.form-control-lg {
   padding: 5px 0 !important;
 }
 
+.section2 .section2_elements .section2_top h1, .section2 .section2_elements .section2_top .h1 {
+  font-family: "simo";
+}
+.section2 .section2_elements .section2_top h1 span, .section2 .section2_elements .section2_top .h1 span {
+  font-family: "simo";
+}
+.section2 .section2_elements .section2_bottom {
+  width: 95vw !important;
+}
+.section2 .section2_elements .section2_bottom .section2_leftside {
+  width: 65% !important;
+}
+.section2 .section2_elements .section2_bottom .section2_leftside .img-0 {
+  background-image: url("../../../../public/img/about.jpg") !important;
+  background-size: cover !important;
+  width: 90% !important;
+  height: 650px !important;
+}
+.section2 .section2_elements .section2_bottom .section2_rightside {
+  width: 35% !important;
+}
+.section2 .section2_elements .section2_bottom .section2_rightside .img {
+  background-image: url("../../../../public/img/about-2.jpg") !important;
+  background-size: cover !important;
+  width: 100% !important;
+  height: 330px !important;
+}
+.section2 .section2_elements .section2_bottom .section2_rightside .img .button {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #EC2727;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: #EC2727 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+  align-items: center;
+  border: 0;
+}
+.section2 .section2_elements .section2_bottom .section2_rightside .img .button:is(:hover, :focus) {
+  transform: scale(1.2);
+}
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+  }
+}
+
+.section3 .section3_elements {
+  background: #e3e3e3;
+  height: 80vh !important;
+}
+.section3 .section3_elements .section3_leftside {
+  width: 35% !important;
+}
+.section3 .section3_elements .section3_leftside .card {
+  transform: scale(1.5);
+  height: 65% !important;
+}
+.section3 .section3_elements .section3_leftside .card .card-body div a:hover {
+  background-color: white !important;
+  color: #EC2727 !important;
+}
+.section3 .section3_elements .section3_rightside {
+  width: 70% !important;
+  height: 95% !important;
+}
+.section3 .section3_elements .section3_rightside .card:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.3s;
+}
+
+@media (max-width: 430px) {
+  .section1 {
+    height: 100vh !important;
+  }
+  .section1 .hero {
+    height: 100% !important;
+  }
+  .section1 .hero .section1_rightside {
+    height: 50% !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  .section1 .hero .section1_rightside .quote h1, .section1 .hero .section1_rightside .quote .h1 {
+    font-family: "simo";
+  }
+  .section1 .hero .section1_rightside .book-table .book-btn {
+    width: 50% !important;
+  }
+  .section1 .hero .section1_leftside {
+    height: 50% !important;
+    width: 100% !important;
+  }
+  .section1 .hero .section1_leftside img {
+    height: 100% !important;
+    width: 70% !important;
+  }
+  .section2 .section2_elements .section2_top h1, .section2 .section2_elements .section2_top .h1 {
+    font-family: "simo";
+  }
+  .section2 .section2_elements .section2_top h1 span, .section2 .section2_elements .section2_top .h1 span {
+    font-family: "simo";
+  }
+  .section2 .section2_elements .section2_bottom {
+    width: 100vw !important;
+  }
+  .section2 .section2_elements .section2_bottom .section2_leftside {
+    width: 100% !important;
+  }
+  .section2 .section2_elements .section2_bottom .section2_leftside .img-0 {
+    height: 420px !important;
+  }
+  .section2 .section2_elements .section2_bottom .section2_leftside .img-0 div div {
+    height: 40% !important;
+  }
+  .section2 .section2_elements .section2_bottom .section2_rightside {
+    width: 90% !important;
+  }
+  .section2 .section2_elements .section2_bottom .section2_rightside .img {
+    background-image: url("../../../../public/img/about-2.jpg") !important;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 354px !important;
+  }
+  .section2 .section2_elements .section2_bottom .section2_rightside .img .button {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #EC2727;
+    transition: all 0.3s ease-in-out 0s;
+    box-shadow: #EC2727 0px 0px 0px 0px;
+    animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+    align-items: center;
+    border: 0;
+  }
+  .section2 .section2_elements .section2_bottom .section2_rightside .img .button:is(:hover, :focus) {
+    transform: scale(1.2);
+  }
+  @keyframes pulse {
+    100% {
+      box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+    }
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

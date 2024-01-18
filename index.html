@@ -16,7 +16,7 @@
                 <a class="navbar-brand w-25 fs-3 d-flex justify-content-center align-items-center fw-bold fw-lg-bolder"
                     href="#">Lions Resto<span class="text-danger ">&nbsp;.</span></a>
 
-                <div class="nav-elements navigation collapse navbar-collapse w-50" id="navbarSupportedContent">
+                <div class="nav-hide navigation collapse navbar-collapse w-50" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex  gap-4 fw-medium">
                         <li class="nav-item">
                             <a class="nav-link active " aria-current="page" href="#">Home</a>
@@ -49,7 +49,6 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-
                 </div>
                 <div class="connexion w-25 m-0 p-0 d-flex justify-content-center">
                     <button
@@ -123,36 +122,84 @@
         <!-- & section 1 -->
 
         <section class="section1 ">
-            <div class="hero h-100 d-flex">
+            <div class="hero h-100 d-flex flex-column flex-lg-row flex-column-reverse gap-5 py-lg-0 py-5 ">
                 <div
-                    class="section1_rightside w-50 h-100 d-flex flex-column justify-content-center align-items-center gap-4">
-                    <div class="w-75">
+                    class="section1_rightside w-50 h-100 d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-2">
+                    <div class="quote w-75 d-flex justify-content-center">
                         <h1 class="w-75 fw-bold ">ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
                     </div>
                     <p class="w-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde odit voluptatibus id
-                        harum maiores
-                        quas Lorem ipsum adipisicing elit. Sed, ullam!.</p>
+                        harum maiores</p>
                     <div class="book-table d-flex align-items-center w-75 gap-4">
                         <button class="book-btn py-2 border-0 rounded-4 fw-bold text-light bg-blood">Book your
                             table</button>
-                        <div class="d-flex align-items-center gap-2">
+                        <div class="d-flex align-items-center justify-content-lg-start justify-content-center gap-2">
                             <button class="border-0 bg-transparent"><i class="fa-regular fa-circle-play fs-2"
                                     style="color: #ec2727;"></i></button>
                             <h6 class="mb-0">Watch video</h6>
                         </div>
                     </div>
                 </div>
-                <div class="w-50 h-100 d-flex justify-content-center align-items-center">
+                <div class="section1_leftside w-50 h-100 d-flex justify-content-center align-items-center">
                     <img class="w-50 h-75 " src="./public/img/hero-img.png" alt="">
                 </div>
             </div>
-
         </section>
 
         <!-- & section-2 -->
-        <section class="section2">
+        <section class="section2 py-5 w-100">
+            <div class="section2_elements w-100 d-flex flex-column  gap-4 ">
+                <div class=" section2_top d-flex flex-column align-items-center gap-2">
+                    <h5 class="text-secondary">ABOUT US</h5>
+                    <h1>LEARN MORE <span class="text-blood ">ABOUT US</span></h1>
+                </div>
+                <div class="section2_bottom w-100 pb-5 d-flex flex-column flex-lg-row align-items-center">
+                    <div class="section2_leftside  d-flex justify-content-center ">
+                        <div class="img-0 d-flex justify-content-around align-items-end ">
+                            <div
+                                class=" w-75 h-50 text-center  py-lg-5 d-flex justify-content-center align-items-center">
+                                <div
+                                    class="h-50 py-2 w-100 bg-light d-flex flex-column justify-content-around align-items-center ">
+                                    <h3 class="fw-bold ">Book a Table</h3>
+                                    <h3 class="fw-bold text-blood">+1 5589 55448 55</h3>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="section2_rightside ">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, necessitatibus Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. .</p>
+                        <div>
+                            <p><i class="fa-solid fa-check-double" style="color: #ec2727;"></i> Lorem ipsum dolor sit
+                                amet consectetur adipisicing.</p>
+                            <p><i class="fa-solid fa-check-double" style="color: #ec2727;"></i> Lorem ipsum dolor sit
+                                amet consectetur adipisicing.</p>
+                            <div class="d-flex ">
+                                <i class="fa-solid fa-check-double mt-2 pe-1" style="color: #ec2727;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, minus. Excepturi
+                                    eveniet vitae quae. Sunt corrupti qui quo exercitationem iure quos quidem debitis!
+                                </p>
+                            </div>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni pariatur esse, aliquam ipsum
+                            repellat facere asperiores accusamus natus nobis adipisci? Incidunt maiores doloremque
+                            mollitia suscipit.</p>
+                        <div class="img w-100 d-flex justify-content-center align-items-center ">
+                            <button class="button ">
+                                <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                    width="26px">
+                                    <path
+                                        d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
     </main>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
@@ -160,34 +207,3 @@
 </body>
 
 </html>
-<!-- 
-
-<button class="button">
-    <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="26px"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" fill="currentColor"></path></svg>
-  </button>
-
-  .button {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background: red;
-    transition: all 0.3s ease-in-out 0s;
-    box-shadow: red 0px 0px 0px 0px;
-    animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
-    align-items: center;
-    border: 0;
-  }
-  
-  .button:is(:hover, :focus) {
-    transform: scale(1.2);
-  }
-  
-  @keyframes pulse {
-    100% {
-      box-shadow: 0 0 0 45px rgba(193,244,246,0);
-    }
-  }
--->

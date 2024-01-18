@@ -1,25 +1,233 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "ilyass";
 }
 
-.section1{
+.section1 {
     height: 70vh;
     background: #e3e3e3;
-    .hero{
-        .section1_rightside{
-            h1{
+
+    .hero {
+        .section1_rightside {
+            h1 {
                 font-family: "simo";
             }
-            .book-table{
-                .book-btn{
+
+            .book-table {
+                .book-btn {
                     width: 30% !important;
-                    &:hover{
+
+                    &:hover {
                         background-color: white !important;
                         color: $blood !important;
                         border: solid $blood 3px !important;
-                        padding: 5px 0 !important ;
+                        padding: 5px 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//*section 2
+
+.section2 {
+    .section2_elements {
+        .section2_top {
+            h1 {
+                font-family: "simo";
+
+                span {
+                    font-family: "simo";
+                }
+            }
+        }
+
+        .section2_bottom {
+            width: 95vw !important;
+
+            .section2_leftside {
+                width: 65% !important;
+
+                .img-0 {
+                    background-image: url("../../../../public/img/about.jpg") !important;
+                    background-size: cover !important;
+                    width: 90% !important;
+                    height: 650px !important;
+                }
+            }
+
+            .section2_rightside {
+                width: 35% !important;
+
+                .img {
+                    background-image: url("../../../../public/img/about-2.jpg") !important;
+                    background-size: cover !important;
+                    width: 100% !important;
+                    height: 330px !important;
+
+                    .button {
+                        display: flex;
+                        justify-content: center;
+                        color: #fff;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 100%;
+                        background: $blood;
+                        transition: all 0.3s ease-in-out 0s;
+                        box-shadow: $blood 0px 0px 0px 0px;
+                        animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+                        align-items: center;
+                        border: 0;
+                    }
+
+                    .button:is(:hover, :focus) {
+                        transform: scale(1.2);
+                    }
+
+                    @keyframes pulse {
+                        100% {
+                            box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//*section 3
+.section3{
+    .section3_elements{
+        background: #e3e3e3;
+        height: 80vh !important;
+        .section3_leftside{
+            width: 35% !important;
+            .card{
+                transform: scale(1.5);
+                height: 65% !important;
+                .card-body{
+                    div{
+                        a{
+                            &:hover{
+                                background-color: white !important;
+                                color: $blood !important;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .section3_rightside{
+            width: 70% !important;
+            height: 95% !important;
+            .card{
+                &:hover{
+                    transform: scale(1.1);
+                    transition: ease-in 0.3s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+    .section1 {
+        height: 100vh !important;
+
+        .hero {
+            height: 100% !important;
+
+            .section1_rightside {
+                height: 50% !important;
+                width: 100% !important;
+                text-align: center;
+
+                .quote {
+                    h1 {
+                        font-family: "simo";
+                    }
+                }
+
+                .book-table {
+                    .book-btn {
+                        width: 50% !important;
+                    }
+                }
+            }
+
+            .section1_leftside {
+                height: 50% !important;
+                width: 100% !important;
+
+                img {
+                    height: 100% !important;
+                    width: 70% !important;
+                }
+            }
+        }
+    }
+
+    // *section 2
+    .section2 {
+        .section2_elements {
+            .section2_top {
+                h1 {
+                    font-family: "simo";
+    
+                    span {
+                        font-family: "simo";
+                    }
+                }
+            }
+            .section2_bottom {
+                width: 100vw !important;
+                .section2_leftside {
+                    width: 100% !important;
+                    .img-0 {
+                        height: 420px !important;
+                        div{
+                            div{
+                                height: 40% !important;
+                            }
+                        }
+                    }
+                }
+                .section2_rightside {
+                    width: 90% !important;
+                    .img {
+                        background-image: url("../../../../public/img/about-2.jpg") !important;
+                        background-size: cover !important;
+                        width: 100% !important;
+                        height: 354px !important;
+    
+                        .button {
+                            display: flex;
+                            justify-content: center;
+                            color: #fff;
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 100%;
+                            background: $blood;
+                            transition: all 0.3s ease-in-out 0s;
+                            box-shadow: $blood 0px 0px 0px 0px;
+                            animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+                            align-items: center;
+                            border: 0;
+                        }
+    
+                        .button:is(:hover, :focus) {
+                            transform: scale(1.2);
+                        }
+    
+                        @keyframes pulse {
+                            100% {
+                                box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+                            }
+                        }
                     }
                 }
             }
