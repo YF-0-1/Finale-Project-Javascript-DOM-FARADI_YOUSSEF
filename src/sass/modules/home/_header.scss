@@ -38,13 +38,61 @@
                 color: $blood !important;
                 border: solid $blood 3px !important;
             }
+            .modale{
+                height: 100vh;
+                width: 176vw;
+                position: fixed;
+                top: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color : #00000074;
+                .log{
+                    width: 40vw;
+                    position: fixed !important;
+                    left: 40% !important;
+                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                    .sign{
+                        button{
+                            width: 40% !important;
+                            &:hover{
+                                background-color: white !important;
+                                color: $blood !important;
+                                border: solid $blood 1px !important;
+                            }
+                        }
+                    }
+                    .signin{
+                        button{
+                            &:hover{
+                                background-color: white !important;
+                                color: $blood !important;
+                                border: solid $blood 3px !important;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
+
+
 @media (max-width : 430px) {
     .navbar{
         .container-fluid{
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            &:hover::after {
+                                width: 20%;
+                            }
+                        }
+                    }
+                }
+            }
             .nav-hide{
                 position: fixed !important;
                 top: 10vh !important;
@@ -72,8 +120,48 @@
             }
             .connexion{
                 width: 50% !important;
-                button{
+                .connexion-btn{
                     width: 80% !important;
+                }
+                .connexion-btn:hover{
+                    background-color: white !important;
+                    color: $blood !important;
+                    border: solid $blood 3px !important;
+                }
+                .modale{
+                    height: 100vh;
+                    width: 176vw;
+                    position: fixed;
+                    top: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color : #00000074;
+                    .log{
+                        width: 70vw !important;
+                        position: fixed !important;
+                        left: 16% !important;
+                        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                        .sign{
+                            button{
+                                width: 40% !important;
+                                &:hover{
+                                    background-color: white !important;
+                                    color: $blood !important;
+                                    border: solid $blood 1px !important;
+                                }
+                            }
+                        }
+                        .signin{
+                            button{
+                                &:hover{
+                                    background-color: white !important;
+                                    color: $blood !important;
+                                    border: solid $blood 3px !important;
+                                }
+                            }
+                        }
+                    }
                 }
             }
             .navbar-toggler{

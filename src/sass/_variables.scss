@@ -3,10 +3,14 @@
 
 
 $blood: #EC2727;
+$lightblood: #ffa0a0;
+$lighterblood: #fff2f2;
 
 
 $custom-colors: (
 "blood": $blood,
+"lightblood": $lightblood,
+"lighterblood": $lighterblood,
 );
 
 $theme-colors: map-merge($custom-colors , $theme-colors);

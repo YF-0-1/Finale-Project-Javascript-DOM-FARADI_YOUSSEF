@@ -11,11 +11,11 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav class="navbar p-0 navbar-expand-lg position-fixed w-100">
+        <nav class="navbar p-0 navbar-expand-lg  bg-light w-100">
             <div class="container-fluid d-flex align-items-center px-lg-0 px-4 ">
                 <a class="navbar-brand w-25 fs-3 d-flex justify-content-center align-items-center fw-bold fw-lg-bolder"
                     href="#">Lions Resto<span class="text-danger ">&nbsp;.</span></a>
-                
+
                 <div class="nav-elements navigation collapse navbar-collapse w-50" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex  gap-4 fw-medium">
                         <li class="nav-item">
@@ -51,28 +51,76 @@
                     </ul>
 
                 </div>
-                <div class="connexion w-25 m-0 p-0 d-flex justify-content-center"> 
-                    <button class=" connexion-btn bg-blood border-0 text-light py-2  px-0 px-lg-5 fw-medium rounded-pill" >CONNEXION</button>
-                    <div class="d-none">
-                        
+                <div class="connexion w-25 m-0 p-0 d-flex justify-content-center">
+                    <button
+                        class=" connexion-btn bg-blood border-0 text-light py-2  px-0 px-lg-5 fw-medium rounded-pill">CONNEXION</button>
+                    <div class="modale d-none">
+                        <div class="log h-75 w-25 rounded-4  bg-lighterblood">
+                            <div class="sign w-100 d-flex justify-content-center align-items-center gap-3 mt-3 px-3">
+                                <button class="signinbtn py-2 px-1 border-0 rounded-4 fw-bold text-light bg-blood">Sign
+                                    In</button>
+                                <button class="signupbtn py-2 px-1 border-0 rounded-4 fw-bold text-light bg-blood">Sign
+                                    Up</button>
+                                <i class="clear fa-solid fa-xmark fw-bolder"></i>
+                            </div>
+                            <div class="signin w-100 h-75 d-flex justify-content-center align-items-center ">
+                                <form action="" class="d-flex flex-column w-75 gap-4 text-center">
+                                    <input type="email" id="emailSignin"
+                                        class="rounded-pill border-0 px-3 py-2 bg-lightblood fw-medium"
+                                        placeholder="Username/Email">
+                                    <input type="password" id="passwordSignin"
+                                        class="rounded-pill border-0 px-3 py-2 bg-lightblood fw-medium"
+                                        placeholder="password">
+                                    <button class="border-0 w-100 py-2 rounded-pill bg-blood text-light fw-bold">Sign
+                                        in</button>
+                                    <a href="#" class="text-blood fw-medium text-decoration-none">Forgot password?</a>
+                                    <p class="d-flex flex-column flex-lg-row text-center">You don't have an account
+                                        ?&nbsp;<a href="#"
+                                            class="signupbtn2 text-blood text-decoration-none fw-bold">Sign Up</a></p>
+                                </form>
+                            </div>
+                            <div class="signup h-100 d-flex flex-column mt-4 align-items-center gap-lg-3 gap-2 d-none">
+                                <form action="" class="w-75 d-flex flex-column gap-3">
+                                    <input type="email" placeholder="Email"
+                                        class="rounded-pill border-0 px-3 py-lg-2 py-1 bg-lightblood fw-medium">
+                                    <input type="text" placeholder="Phone Number"
+                                        class="rounded-pill border-0 px-3 py-lg-2 py-1 bg-lightblood fw-medium">
+                                    <input type="password" placeholder="Password"
+                                        class="rounded-pill border-0 px-3 py-lg-2 py-1 bg-lightblood fw-medium">
+                                    <input type="password" placeholder="Confirm Password"
+                                        class="rounded-pill border-0 px-3 py-lg-2 py-1 bg-lightblood fw-medium">
+                                </form>
+                                <div
+                                    class="d-flex w-100 flex-column justify-content-center align-items-center gap-lg-1 gap-0 mt-2">
+                                    <button
+                                        class="border-0 w-75 py-lg-2 py-1 rounded-pill bg-blood text-light fw-bold">Sign
+                                        Up</button>
+                                    <p class="pt-1 mb-0">or</p>
+                                    <button
+                                        class="border-0 w-75 py-lg-2 py-1 rounded-pill bg-blood text-light fw-bold">Sign
+                                        Up with google</button>
+                                </div>
+                                <a href="#" class="text-blood fw-medium text-decoration-none">Forgot password?</a>
+                                <p class="d-flex flex-column flex-lg-row text-center">Already have an account ?&nbsp;<a
+                                        href="#" class="signinbtn2 text-blood text-decoration-none fw-bold">Sign In</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <button  class="navbar-toggler" type="button" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
+
             </div>
         </nav>
     </header>
 
     <!-- *------------------------------ -->
     <main>
-        <!--& section 1 -->
-        <section>
-
-        </section>
+        
 
     </main>
 
