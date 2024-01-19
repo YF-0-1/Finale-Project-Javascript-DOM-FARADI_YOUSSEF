@@ -97,6 +97,9 @@
         .container-fluid{
             .collapse{
                 .navbar-nav{
+                    padding-left: 30vw !important;
+                    height: 100vh !important;
+                    justify-content: space-evenly !important;
                     .nav-item{
                         a{
                             &:hover::after {
@@ -122,7 +125,7 @@
             .nav-elements{
                 position: fixed !important;
                 top: 10vh !important;
-                right: -50vw !important;
+                right: -30vw !important;
                 width: 100vw !important;
                 height: 100vh !important;
                 transition: 1s !important;

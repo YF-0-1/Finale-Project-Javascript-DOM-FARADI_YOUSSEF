@@ -11,10 +11,10 @@
 <body>
     <header>
         <!-- navbar -->
-        <nav class="navbar p-0 navbar-expand-lg  bg-light w-100">
+        <nav class="navbar p-0  navbar-expand-lg position-fixed z-3 bg-light w-100">
             <div class="container-fluid d-flex align-items-center px-lg-0 px-4 ">
                 <a class="navbar-brand w-25 fs-3 d-flex justify-content-center align-items-center fw-bold fw-lg-bolder"
-                    href="#">Lions Resto<span class="text-danger ">&nbsp;.</span></a>
+                    href="#">Lions Resto<span class="text-blood ">&nbsp;.</span></a>
 
                 <div class="nav-hide navigation collapse navbar-collapse w-50" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex  gap-4 fw-medium">
@@ -22,23 +22,23 @@
                             <a class="nav-link active " aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#aboutUS">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="#ourMenu">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="#events">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Chefs</a>
+                            <a class="nav-link" href="#chefs">Chefs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="#book">Gallery</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Drop Down ^
+                                Drop<span class="fw-bolder">^</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action 1</a></li>
@@ -46,7 +46,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -121,10 +121,9 @@
     <main>
         <!-- & section 1 -->
 
-        <section class="section1 ">
+        <section class="section1 pt-5">
             <div class="hero h-100 d-flex flex-column flex-lg-row flex-column-reverse gap-5 py-lg-0 py-5 ">
-                <div
-                    class="section1_rightside w-50 h-100 d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-2">
+                <div class="section1_rightside w-50 h-100 d-flex flex-column justify-content-center align-items-center gap-lg-4 gap-2">
                     <div class="quote w-75 d-flex justify-content-center">
                         <h1 class="w-75 fw-bold ">ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
                     </div>
@@ -140,14 +139,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="section1_leftside w-50 h-100 d-flex justify-content-center align-items-center">
-                    <img class="w-50 h-75 " src="./public/img/hero-img.png" alt="">
+                <div class="section1_leftside w-50 h-100 d-flex justify-content-center align-items-center  pt-4 pt-lg-0">
+                    <img width="60%" height="80%" src="./public/img/hero-img.png" alt="">
                 </div>
             </div>
         </section>
 
         <!-- & section-2 -->
-        <section class="section2 py-5 w-100">
+        <section class="section2 py-5 w-100 " id="aboutUS">
             <div class="section2_elements w-100 d-flex flex-column  gap-4 ">
                 <div class=" section2_top d-flex flex-column align-items-center gap-2">
                     <h5 class="text-secondary">ABOUT US</h5>
@@ -202,10 +201,10 @@
 
 
         <!--& section 3 -->
-        <section class="section3 pb-5">
-            <div class="section3_elements d-flex w-100 py-5 ">
+        <section class="section3 pb-2">
+            <div class="section3_elements d-flex flex-column flex-lg-row justify-content-center align-items-center w-100 py-5 gap-lg-0 gap-5">
                 <div class="section3_leftside h-100 d-flex justify-content-center align-items-center ">
-                    <div class="card  bg-blood text-white ms-5" style="width: 19rem;">
+                    <div class="card  bg-blood text-white ms-lg-5" style="width: 19rem;">
                         <div class="card-body  d-flex flex-column gap-2">
                             <h5 class="card-title w-75 fs-2 fw-bold">Why Choose Yummy?</h5>
                             <p class="card-text">Lorem ipsum dolor sitptate autem explicabo similique, quasi eos, neque sit accusantium. Reprehenderit eveniet illum  licabo similique, quasi eos, nesciunt voluptatibus maxime id nulla.</p>
@@ -215,25 +214,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="section3_rightside  d-flex flex-column flex-lg-row gap-3 align-items-center justify-content-start ps-4" >
+                <div class="section3_rightside  d-flex flex-column flex-lg-row gap-3 align-items-center justify-content-start ps-lg-4 " >
                     <div class="card h-75" style="width: 18rem;">
-                        <div class="card-body d-flex flex-column justify-content-center align-items-center gap-3 text-center">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-4 text-center">
                             <i class="fa-solid fa-chart-column fs-1 bg-lightblood rounded-circle p-3" style="color: #ec2727;" ></i>
-                            <p class="card-text fs-5 ">Some quick example text to build oe caake up the bulk</p>
+                            <p class="card-text fs-5 ">Some quick example text to build oe caake </p>
                             <p>Lorem ipsum dolor sit amet consectetur  amet consectetur adipisicing elit. Ratione, amet.</p>
                         </div>
                     </div>
                     <div class="card h-75" style="width: 18rem;">
-                        <div class="card-body d-flex flex-column justify-content-center align-items-center gap-3 text-center">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-4 text-center">
                             <i class="fa-regular fa-gem fs-1 bg-lightblood rounded-circle p-3" style="color: #ec2727;" ></i>
-                            <p class="card-text fs-5 ">Some quick example text to build oe caake up the bulk</p>
+                            <p class="card-text fs-5 ">Some quick example text to build oe caake </p>
                             <p>Lorem ipsum dolor sit amet consectetur  amet consectetur adipisicing elit. Ratione, amet.</p>
                         </div>
                     </div>
                     <div class="card h-75" style="width: 18rem;">
-                        <div class="card-body d-flex flex-column justify-content-center align-items-center gap-3 text-center">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center gap-lg-3 gap-4 text-center">
                             <i class="fa-solid fa-server fs-1 bg-lightblood rounded-circle p-3" style="color: #ec2727;" ></i>
-                            <p class="card-text fs-5 ">Some quick example text to build oe caake up the bulk</p>
+                            <p class="card-text fs-5 ">Some quick example text to build oe caake </p>
                             <p>Lorem ipsum dolor sit amet consectetur  amet consectetur adipisicing elit. Ratione, amet.</p>
                         </div>
                     </div>
@@ -242,10 +241,47 @@
         </section>
 
         <!-- & section-4 -->
-        <section class="section4">
-
+        <section class="section4 pb-4">
+            <div class="position-relative section4_elements w-100 ">
+                <div class="position-absolute section4_bg_img">
+                </div>
+                <div class="sec4_elements position-absoalute text-center six-info text-light top-50 start-50 translate-middle w-100 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-evenly gap-5 gap-lg-0 ">
+                    <div class="text-light  ">
+                        <h1 class="fw-bolder  ">232</h1>
+                        <h5 class="fw-boler">CLIENT</h5>
+                    </div>
+                    <div  class="text-light  ">
+                        <h1 class="fw-bolder ">516</h1>
+                        <h5 class="fw-boler">PROJECTS</h5>
+                    </div>
+                    <div  class="text-light  ">
+                        <h1 class="fw-bolder ">1438</h1>
+                        <h5 class="fw-boler">HOURS OF SUPPORT</h5>
+                    </div>
+                    <div  class="text-light  ">
+                        <h1 class="fw-bolder ">32</h1>
+                        <h5 class="fw-boler">WORKERS</h5>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- & section 5 -->
+     
+        <!-- & section6 -->
+        
+ 
+        <!-- & section x carousel one -->
+
+
+
+        <!-- & section -->
+
+        <!-- & section -->
+        
+      
+       
     </main>
+
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./public/js/app.js"></script>
